@@ -7,7 +7,7 @@ system enable ngnix
 apt-get install -y git
 curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 apt-get install -y nodejs
-git clone https://github.com/cse2tuhin115-bot.git
+git clone https://github.com/cse2tuhin115-bot/AWS.git
 cd AWS
 npm install
 node index.js
